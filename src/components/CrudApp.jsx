@@ -6,7 +6,7 @@ function CrudApp() {
   const [items, setItems] = useState([]);
 
   // Add the Record
-  const assItem = (item) => {
+  const addItem = (item) => {
     setItems([...items, { id: Date.now(), ...item }]);
   };
   return (
