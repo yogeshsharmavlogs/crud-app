@@ -12,7 +12,7 @@ function CrudApp() {
   return (
     <div className="w-1/2 bg-[#1d293d] shadow rounded py-10 px-2">
       <h2 className="text-center text-4xl/9 font-bold tracking-tighter text-white">
-        Crud App
+        Crud Application
       </h2>
       <Form addItem={addItem} />
       <Table />
